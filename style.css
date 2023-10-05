@@ -56,7 +56,7 @@ body {
 	color: rgba(64, 64, 64, .8);
 }
 h1, h2, h3, ul, p, img {
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 }
 .location, .program, .gift, .faq, .contact {
 	width: 95%;
@@ -154,12 +154,14 @@ a:hover {
 }
 
 /*-----main style-----*/
-ul {
-	letter-spacing: .15rem;
-	text-align: left;
-}
+
 .location img, .gift img {
-	height: 5rem;
+	height: 6.5rem;
+}
+@media (min-width: 768px) {
+	.location img, .gift img {
+		height: 8rem;
+	}
 }
 .location-list div {
 	font-family: 'Muli', sans-serif;
@@ -173,16 +175,40 @@ ul {
 	vertical-align: middle;
 	margin: 1.5rem;
 }
-.program h2 {
-	text-align: center;
+@media (min-width: 768px) {
+	.location-list {
+		display: inline-block;
+		width: 30%;
+		padding: .5rem 2rem;
+		margin: .5rem;
+	}
+	.location-list::after {
+		display: none;
+	}
+}
+.program h3 {
+	font-style: italic;
 }
 .program, .faq {
 	width: 100%;
 	background-color: rgba(0, 0, 0, .6);
 	color: rgba(255, 163, 26, .8);
 }
+.program ul {
+	letter-spacing: .15rem;
+	text-align: left;
+}
+@media (min-width: 768px) {
+	.times {
+		width: 30%;
+		margin: 0 auto;
+	}
+}
 .gift p {
 	margin-bottom: 0;
+}
+.faq h2 {
+	margin-top: 1rem;
 }
 .faq-group::after {
 	display: inline-block;
@@ -201,6 +227,19 @@ ul {
 }
 .answer {
 	font-size: 1rem;
+}
+@media (min-width: 768px) {
+	.faq-group {
+		display: inline-block;
+		vertical-align: top;
+		text-align: left;
+		width: 30%;
+		padding: .5rem;
+		margin: .5rem;
+	}
+	.faq-group::after {
+		display: none;
+	}
 }
 .contact {
 	margin-bottom: 0;
