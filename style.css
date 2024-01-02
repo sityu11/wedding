@@ -98,7 +98,7 @@ a:hover {
 /*-----HEADER STYLES-----*/
 
 .cover {
-    background: url('https://codeberry-curriculum-assets.s3.eu-central-1.amazonaws.com/wsc/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+    background: url('https://i.imgur.com/f6kL69H.jpg') no-repeat center/cover;
     display: table;
     text-align: center;
     width: 100%;
@@ -106,7 +106,7 @@ a:hover {
 }
 @media (min-width: 768px) {
 	.cover {
-		background: url('https://codeberry-curriculum-assets.s3.eu-central-1.amazonaws.com/wsc/wedding-landing-cover.jpg') no-repeat center/cover;
+		background: url('https://i.imgur.com/f6kL69H.jpg') no-repeat center/cover;
 	}
 }
 .text-box-wrapper {
