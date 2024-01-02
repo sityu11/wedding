@@ -69,7 +69,7 @@ h1 {
 	font-family: 'Great Vibes', cursive;
 	font-size: 4rem;
 	color: rgba(255, 163, 26, .8);
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.2rem;
 }
 @media (min-width: 768px) {
 	h1 {
